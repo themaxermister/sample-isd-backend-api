@@ -24,7 +24,7 @@ public class AppConfig {
     @Bean
     CommandLineRunner runner(PokemonService pokemonService) {
         return args -> {
-            // read json and write to repo
+            // Read Json and write to Repository using Service
             ObjectMapper mapper = new ObjectMapper();
             TypeReference<List<Pokemon>> typeReference = new TypeReference<>() {
             };
