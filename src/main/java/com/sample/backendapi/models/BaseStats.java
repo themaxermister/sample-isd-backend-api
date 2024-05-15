@@ -28,4 +28,7 @@ public class BaseStats {
 
     @JsonProperty("Speed")
     private int speed;
+
+    public BaseStats() {
+    }
 }
